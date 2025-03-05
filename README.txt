@@ -37,7 +37,6 @@
 ```html
 <meta property="og:title" content="ProChini - Your Website">
 <meta property="og:description" content="這是一個專案展示網站">
-<meta property="og:image" content="https://prochini.github.io/assets/preview.jpg">
 <meta property="og:url" content="https://prochini.github.io/">
 ```
 
