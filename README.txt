@@ -1,33 +1,51 @@
-Strata by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# ProChini GitHub Pages
 
+歡迎來到 **ProChini** 的 GitHub Pages！這是一個展示與開發的專案網站。
 
-A simple, minimalist template that actually began life as an unused redesign of my
-personal site. Includes a (configurable) parallax background effect, Poptrox-powered
-lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
+## 🚀 網站資訊
+- **網站網址**：[ProChini GitHub Pages](https://prochini.github.io/)
+- **技術**：HTML, CSS, JavaScript
+- **部署平台**：GitHub Pages
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## 📌 功能特色
+- **響應式設計**：適應不同設備與螢幕尺寸
+- **簡單直觀的 UI**：清晰易用的介面設計
+- **社群分享**：支援 Open Graph 與 Twitter Card 預覽
 
-(* = Not included)
+## 🛠️ 修改與開發
+1. **Clone 專案**
+   ```bash
+   git clone https://github.com/prochini/prochini.github.io.git
+   ```
+2. **進入專案目錄**
+   ```bash
+   cd prochini.github.io
+   ```
+3. **編輯 HTML/CSS/JS**
+   修改 `index.html`、`style.css`、`script.js` 等檔案。
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+4. **提交修改並推送至 GitHub**
+   ```bash
+   git add .
+   git commit -m "更新網站內容"
+   git push origin main
+   ```
 
-AJ
-aj@lkn.io | @ajlkn
+## 🌍 社群媒體預覽設定
+若要修改社群分享時的預覽內容，請在 `index.html` 的 `<head>` 區塊內調整以下 `meta` 標籤：
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+```html
+<meta property="og:title" content="ProChini - Your Website">
+<meta property="og:description" content="這是一個專案展示網站">
+<meta property="og:image" content="https://prochini.github.io/assets/preview.jpg">
+<meta property="og:url" content="https://prochini.github.io/">
+```
 
+## 🏗️ 部署與更新
+GitHub Pages 會自動部署 `main` 分支上的內容，因此只需推送最新的修改即可。
 
-Credits:
+## 📜 授權
+本專案使用 MIT License，歡迎自由使用與修改！
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+---
+💡 **若有任何問題或建議，歡迎提交 Issue 或 PR！**
