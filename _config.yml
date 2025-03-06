@@ -1,0 +1,75 @@
+# 網站基本資訊
+title: "Chloe | 高雄網站開發接案 - 專業前端後端工程師"
+description: "高雄網站開發接案，專業前後端開發服務，提供企業網站、電商平台、系統整合等全方位開發解決方案。"
+baseurl: ""  # GitHub Pages 根目錄
+url: "https://prochini.github.io"  # 網站主網址
+
+# SEO 設定
+lang: zh-TW
+timezone: Asia/Taipei
+google_analytics: "G-RN934H6722"  # ⚠️ 替換成你的 Google Analytics ID
+logo: "/images/avatar.jpg"
+social:
+  name: "Chloe"
+  links:
+    - "https://github.com/prochini"
+    - "https://line.me/ti/p/~porchini"
+    - "mailto:a77471@gmail.com"
+
+# Jekyll 佈景主題
+theme: jekyll-theme-minimal
+
+# Jekyll 插件
+plugins:
+  - jekyll-feed       # RSS Feed 生成
+  - jekyll-sitemap    # 生成 sitemap.xml
+  - jekyll-seo-tag    # 自動 SEO meta tags
+  - jekyll-robots     # 生成 robots.txt
+
+# 排除不需要處理的文件（提升效能）
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules/
+  - vendor/
+
+# 作者資訊
+author:
+  name: "Chloe"
+  email: "a77471@gmail.com"
+  location: "台灣高雄"
+  avatar: "/images/avatar.jpg"
+  bio: "高雄網站開發接案工程師，專精於前端、後端與系統整合。"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/prochini"
+    - label: "Line"
+      icon: "fab fa-line"
+      url: "https://line.me/ti/p/~porchini"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:a77471@gmail.com"
+
+# 文章 SEO 設定（支援 Google Rich Snippets）
+permalink: "/:title/"
+future: true
+highlighter: rouge
+markdown: kramdown
+encoding: utf-8
+
+# Open Graph (Facebook, Twitter) 設定
+twitter:
+  username: "你的Twitter帳號"
+  card: summary_large_image
+facebook:
+  app_id: "你的Facebook App ID"
+  publisher: "你的Facebook專頁"
+og_image: "/images/avatar.jpg"
+
+# robots.txt 設定（允許 Google 搜索）
+robots:
+  user-agent: "*"
+  allow: ["/"]
+  sitemap: "https://prochini.github.io/sitemap.xml"
